@@ -1,10 +1,10 @@
 # AstroNova Kodulehe Projekt
 
 ## Tiimi liikmed
-- **Silver Reinart** - Juhendaja
-- **Robin Mihkelson** - Juhendaja
-- **Maikel Lätt** - Juhendaja
-- **Robin Vaga** - Juhendaja
+- **Silver Reinart** - Juhendaja, Figma disainer
+- **Robin Mihkelson** - Juhendaja, Figma disainer
+- **Maikel Lätt** - Juhendaja, Figma disainer
+- **Robin Vaga** - Juhendaja, Figma disainer
 - **Marko Põlluäär** - Programmeerija
 - **Ahto Klais** - Programmeerija
 
