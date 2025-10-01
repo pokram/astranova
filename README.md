@@ -19,6 +19,10 @@
 
 ### Esimene päev: 01.10.25
 
+![esimese-paeva-tegevused](https://github.com/user-attachments/assets/52e575e2-6497-4e36-8321-7cf4425bcef6)
+- Esimesel päeval keskendusime oma väljamõeldud maailma loomisele ja portaaliveebi struktuuri kavandamisele.
+- Alustasime portaali kujundust Figma keskkonnas.
+- Paika sai visuaalne suund: futuristlik stiil, selge navigeerimine ja kosmoselinna atmosfäär.
 ---
 
 ### Teine päev: 02.10.25
