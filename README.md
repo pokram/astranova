@@ -1,4 +1,4 @@
-# Metallica Bändi Kodulehe Projekt
+# AstroNova Kodulehe Projekt
 
 ## Tiimi liikmed
 - **Silver Reinart** - Juhendaja
