@@ -5,7 +5,7 @@
 - **Robin Mihkelson** - Juhendaja
 - **Maikel Lätt** - Juhendaja
 - **Robin Vaga** - Juhendaja
-- **Marko Põllusaar** - Programmeerija
+- **Marko Põlluäär** - Programmeerija
 - **Ahto Klais** - Programmeerija
 
 ## Projekti lingid
