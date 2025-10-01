@@ -1,6 +1,20 @@
 html, body {
-    background-image: url('Media/pilt_tekstita_suur.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: ;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Audiowide', sans-serif;
+  
+  background-image: url('Media/taustapilt2.png');
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;   
+  background-attachment: fixed;   
 }
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+}
+
