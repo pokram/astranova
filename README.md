@@ -13,3 +13,10 @@
 - **Live koduleht**:
 
 ---
+
+
+## Projekti ajakava
+
+### Esimene päev: 01.10.25
+
+---
