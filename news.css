@@ -1,0 +1,18 @@
+.box {
+    height: 400px;
+    width: 600px;
+    background-color: #1D2559;
+    opacity: 50%;
+    border-radius: 25px;
+}
+
+.button-img {
+    height: 250px;
+    width: 330px;
+}
+
+.box2 {
+    height: 200px;
+    width: 500px;
+
+}
