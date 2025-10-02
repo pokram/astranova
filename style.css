@@ -18,3 +18,20 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    gap: 40px;
+}
+
+.site-header img {
+    width: 100px;
+    height: 100px;
+}
+
+.site-header a {
+    gap: 40px;
+    
+}
