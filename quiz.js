@@ -11,9 +11,9 @@ const questions = [
     {
       question: "Which language runs in a web browser?",
       answers: [
-        { text: "Python", correct: false },
+        { text: "Python", correct: true },
         { text: "JavaScript", correct: true },
-        { text: "C++", correct: false },
+        { text: "C++", correct: true },
         { text: "Java", correct: false }
       ]
     },
