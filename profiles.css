@@ -1,8 +1,31 @@
+.profilesHeader {
+    text-align: center;
+}
+
+.profilesHeader h1 {
+    margin-top: 50px;
+
+}
+
 .profiles-picture {
-    width: 200px;
+    width: 350px;
     height: auto;
+    border-radius: 20px;
 }
 
 .lyra {
-    
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+    gap: 90px;
+    }
+
+.vex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 40px 200px;
+    gap: 90px;
+    }
