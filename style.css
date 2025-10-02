@@ -29,6 +29,7 @@ p {
 
 .site-header {
   display: flex;
+  position: relative;
   flex-direction: row;
   justify-content: center;
   background-color: black;
@@ -86,4 +87,141 @@ p {
 
 .header-button.active::after {
   width: 100%; /* underline always visible */
+}
+
+.NavbarToggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  
+}
+  
+.NavbarToggleIcon {
+  display: block;
+  width: 1.5rem;
+  height: 0.125rem;
+  background-color: whitesmoke;
+  position: relative;
+    
+}
+  
+.NavbarToggleIcon::before,
+.NavbarToggleIcon::after {
+  content: '';
+  width: 1.5rem;
+  height: 0.125rem;
+  background-color: whitesmoke;
+  position: absolute;
+  left: 0px;
+  transition: transform 0.3s ease;
+}
+  
+.NavbarToggleIcon::before {
+  top: -0.5rem;
+}
+  
+.NavbarToggleIcon::after {
+  top: 0.5rem;
+    
+}
+
+
+.DropdownMenu {
+  display: none;
+  box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+  
+.DropdownMenu.active {
+  display: block;
+}
+  
+
+  
+.DropdownLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+  
+.DropdownLink {
+  text-decoration: none;
+  font-size: 1rem;
+  color: whitesmoke;
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+  
+.DropdownLink:hover {
+  color: #A67B5B;
+}
+  
+
+
+@media screen and (max-width: 430px) {
+  .NavbarToggle {
+    display: block;
+    margin: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    margin-right: -80px;
+    margin-left: 50px;
+    margin-top: -50px;
+    
+  }
+
+  .header-button {
+    display: none; 
+  }
+
+  
+  .DropdownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;   
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 16px;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+
+  .DropdownMenu.active {
+    display: block;
+  }
+
+  .DropdownLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .DropdownLink {
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .DropdownLink:hover {
+    color: #00c8ff;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
 }
