@@ -4,31 +4,38 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: 'Audiowide', sans-serif;
-  
+
+main {
   background-image: url('Media/taustapilt2.png');
   background-size: cover;         
   background-position: center;    
   background-repeat: no-repeat;   
-  background-attachment: fixed;   
+  background-attachment: fixed;
+  margin-top: -22px;
 }
 
 h1, h2, h3 {
   font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
+  color: whitesmoke;
+}
+
+p {
+  font-family: 'Exo 2', sans-serif;
+  color: whitesmoke;
+}
 }
 
 .site-header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* background-color: white; */
+    background-color:black ;
     gap: 40px;
 }
 
 .site-header img {
-    width: 100px;
-    
+    width: 100px;   
 }
 
 .site-header nav {
@@ -36,4 +43,13 @@ h1, h2, h3 {
     gap: 50px;
     margin-top: 50px;
     
+}
+
+.header-button {
+  font-size: 21px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
 }
