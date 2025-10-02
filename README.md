@@ -10,7 +10,7 @@
 
 ## Projekti lingid
 - **Figma disain**: https://www.figma.com/design/rnMUHB8AQD9mFdSzXH6rgp/AstroNova?node-id=0-1&p=f&t=TjBbbl9HWib64zHW-0
-- **Live koduleht**:
+- **Live koduleht**: https://idyllic-syrniki-6e1009.netlify.app/
 
 ---
 
