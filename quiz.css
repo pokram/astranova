@@ -89,7 +89,7 @@ h2 {
 .container {
   display: flex;
   justify-content: center;
-  padding-top: 70px;
+  padding-top: 45px;
   margin-top: 22px;
 }
 
@@ -117,5 +117,5 @@ h2 {
   text-align: center;
 }
 .profilesHeader h1 {
-  padding-top: 30px;
+  padding-top: 68px;
 }
