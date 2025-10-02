@@ -4,6 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
 
 main {
   background-image: url('Media/taustapilt2.png');
@@ -25,18 +26,24 @@ p {
   font-family: 'Exo 2', sans-serif;
   color: whitesmoke;
 }
-}
 
 .site-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color:black ;
-    gap: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  gap: 40px;
+  animation: fadeDown 0.8s ease-in-out;
 }
 
 .site-header img {
-    width: 100px;   
+  width: 100px; 
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.site-header img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 15px #00c8ff);
 }
 
 .site-header nav {
@@ -53,4 +60,26 @@ p {
   text-decoration: none;
   font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.header-button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #3498db, #8e44ad);
+  transition: width 0.3s ease-in-out;
+}
+
+.header-button:hover {
+  color: #00c8ff;
+  text-shadow: 0 0 5px #00c8ff, 0 0 10px #00c8ff, 0 0 20px #00c8ff;
+}
+
+.header-button:hover::after {
+  width: 100%;
 }
