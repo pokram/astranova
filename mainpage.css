@@ -1,0 +1,41 @@
+main {
+    margin-top: 0
+}
+
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+    gap: 90px;
+    padding-top: 100px;
+}
+
+.introduction-picture {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.introduction-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.name {
+    font-size: ;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+}
