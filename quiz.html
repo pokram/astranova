@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AstraNova Maps</title>
+    <title>AstraNova News</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="maps.html">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="quiz.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -22,12 +23,15 @@
             <a class="header-button" href="quiz.html">Quiz</a>
         </nav>
     </header>
-    <main>
-        <div class="map">
-            <img src="Media/Map.png" alt="Map" style="width:100%; height:auto; display:block;">
 
+    <div class="container">
+        <div class="quiz-container">
+            <h2 id="question">Question text</h2>
+            <ul class="choices" id="choices"></ul>
+            <button id="next-btn">Next Question</button>
         </div>
-    </main>
-    
+    </div>
+
+<script src="quiz.js"></script>
 </body>
 </html>
