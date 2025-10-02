@@ -12,6 +12,7 @@ main {
   background-repeat: no-repeat;   
   background-attachment: fixed;
   margin-top: -22px;
+  min-height: 100vh
 }
 
 h1, h2, h3 {
