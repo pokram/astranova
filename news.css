@@ -51,3 +51,53 @@
 body {
     overflow-y: hidden;
 }
+
+/* Lauaarvuti (default) on sul juba olemas */
+
+/* Tahvelarvuti vaade (max 1024px laiusega ekraanid) */
+@media (max-width: 1024px) {
+  .news-container {
+    grid-template-columns: repeat(2, 1fr); /* kaks veergu */
+    gap: 20px;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .button-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobiilivaade (max 768px) */
+@media (max-width: 768px) {
+  .news-container {
+    grid-template-columns: 1fr; /* ainult üks veerg */
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .button-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .box2 {
+    width: 90%;
+    margin: 10px auto 0;
+  }
+
+  body {
+    overflow-y: auto; /* mobiilis lubame kerida */
+  }
+}
