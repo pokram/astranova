@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstraNova Maps</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="maps.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@400;600&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header class="site-header">
         <nav>
@@ -34,12 +37,29 @@
         </div>
     </header>
     <main>
-        <div class="map">
-            <img src="Media/Map.png" alt="Map" style="width:100%; height:auto; display:block;">
+        <div class="map-container">
+            <img src="Media/Map.png" alt="AstraNova kaart" class="map-image">
 
+            <button class="hotspot core" data-title="Põhitase"
+                data-text="Turvalised elamiskvartalid, kus elab enamus rahvast."></button>
+            <button class="hotspot engine" data-title="Inseneride tsoon"
+                data-text="Tohutud mehaanilised angaarid ja energiajaamad, kus hoitakse linna elus."></button>
+            <button class="hotspot bazaar" data-title="Turuplatoo"
+                data-text="Kaubanduskeskus ja must turg, kus elu käib ööpäevaringselt."></button>
+            <button class="hotspot shadow" data-title="Varjutsoon"
+                data-text="Keelatud ala, kus süsteemid on ebastabiilsed ja liiguvad kummalised olendid."></button>
+        </div>
+
+        <div id="infoModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-text"></p>
+            </div>
         </div>
     </main>
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
