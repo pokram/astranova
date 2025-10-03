@@ -1,0 +1,26 @@
+.profilesHeader {
+    text-align: center;
+ }
+ .profilesHeader h1 {
+    padding-top: 68px;
+ }
+ .profiles-picture {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+ }
+ .genzo {
+    display: flex;
+    padding: 40px 200px;
+    gap: 90px;
+    }
+ p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 4px 200px;
+ }
+ .sidetext {
+   padding: 1px 1px;
+ }
+ 
