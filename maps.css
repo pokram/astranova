@@ -2,3 +2,30 @@
     display: flex;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 480px) {
+  .map {
+    padding: 10px;
+  }
+
+  .map img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .map {
+    padding: 20px;
+  }
+
+  .map img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.3);
+  }
+}
