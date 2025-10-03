@@ -38,17 +38,13 @@
     </header>
     <main>
         <div class="map-container">
-            <img src="Media/Map.png" alt="AstraNova kaart" class="map-image">
-
-            <button class="hotspot core" data-title="Põhitase"
-                data-text="Turvalised elamiskvartalid, kus elab enamus rahvast."></button>
-            <button class="hotspot engine" data-title="Inseneride tsoon"
-                data-text="Tohutud mehaanilised angaarid ja energiajaamad, kus hoitakse linna elus."></button>
-            <button class="hotspot bazaar" data-title="Turuplatoo"
-                data-text="Kaubanduskeskus ja must turg, kus elu käib ööpäevaringselt."></button>
-            <button class="hotspot shadow" data-title="Varjutsoon"
-                data-text="Keelatud ala, kus süsteemid on ebastabiilsed ja liiguvad kummalised olendid."></button>
-        </div>
+            <img src="Media/Map.png" alt="Map">
+          
+            <div class="hotspot" style="top: 32%; left: 52%;" data-text="Põhitase – turvalised elamiskvartalid"></div>
+            <div class="hotspot" style="top: 52%; left: 46%;" data-text="Inseneride tsoon – angaarid ja energiajaamad"></div>
+            <div class="hotspot" style="top: 63%; left: 52%;" data-text="Turuplatoo – kaubanduskeskus ja must turg"></div>
+            <div class="hotspot" style="top: 64%; left: 56%;" data-text="Varjutsoon – keelatud ala, ebastabiilsed süsteemid"></div>
+          </div>
 
         <div id="infoModal" class="modal">
             <div class="modal-content">
@@ -59,6 +55,7 @@
         </div>
     </main>
     <script src="script.js"></script>
+    <script src="maps.js"></script>
 
 </body>
 
