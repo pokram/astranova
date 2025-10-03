@@ -1,3 +1,7 @@
+main {
+   min-height: 120vh
+}
+
 .map-container {
     position: relative;
     width: 100%;
