@@ -54,6 +54,8 @@ p {
 
   .introduction-title {
     padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
   }
 
   p {
@@ -85,5 +87,10 @@ p {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+  }
+
+  .end {
+    text-align: center;
+    margin: 0 auto;
   }
 }
