@@ -29,6 +29,7 @@
     font-size: 18px;
     line-height: 23px;
  }
+ 
 
  @media screen and (max-width: 480px) {
   .profilesHeader h1 {

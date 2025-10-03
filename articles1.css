@@ -12,7 +12,6 @@ main {
  .profiles-picture {
     width: 500px;
     height: auto;
-    max-height: 450px;
     border-radius: 20px;
  }
  .genzo {
