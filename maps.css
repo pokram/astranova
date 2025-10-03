@@ -5,7 +5,7 @@ main {
 .map-container {
     position: relative;
     width: 100%;
-    padding-top: 27px;
+    padding-top: 100px;
     max-width: 1200px;
     margin: auto;
   }
