@@ -33,7 +33,7 @@ p {
 .end {
     display: flex;
     justify-content: center;
-    min-height: 20vh;
+    min-height: 10vh;
 }
 
 
@@ -93,4 +93,12 @@ p {
     text-align: center;
     margin: 0 auto;
   }
+}
+
+#timer {
+  font-size: 32px;
+  font-family: 'Orbitron', sans-serif;
+  color: #0091ff;
+  text-shadow: 0 0 10px #0d3757;
+  text-align: center;
 }
