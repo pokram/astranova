@@ -85,8 +85,13 @@ p {
   width: 100%;
 }
 
+.header-button.active {
+  color: #00c8ff;
+  text-shadow: 0 0 5px #00c8ff, 0 0 10px #00c8ff;
+}
+
 .header-button.active::after {
-  width: 100%; /* underline always visible */
+  width: 100%;
 }
 
 .NavbarToggle {
